@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-#ruby '1.9.3'
-ruby '2.1.2'
+ruby '1.9.3'
+#ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
@@ -44,7 +44,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-#gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
 group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
